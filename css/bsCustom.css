@@ -1,0 +1,90 @@
+.jumbotron {
+  background-image: url("ZionBannerfail.jpg");
+  background-size: cover;
+  
+  margin: 30px;
+  
+}
+
+.divColorBackground 
+{
+	background-color: black
+}
+ .main-header, 
+.main-content {
+    padding:0;
+    margin:0;
+}
+ ul {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+ 
+ /* Container holding the image and the text */
+body, html {
+	 margin-top: 0;
+  margin-bottom: 0;
+   
+}
+.transparentBox {
+	color: white ;
+	background-color: rgba(10,10,10 , 0.5);
+}
+/* The hero image */
+.hero-image {
+  background-image: url();
+  background-color: #cccccc;
+  height: 200px;
+  background-position: center;
+  background-repeat: repeat;
+ 
+  position: relative;
+
+
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background: rgba(0, 0, 0, 0.3)
+  
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+\
+.row.no-gutter [class*='col-']:not(:first-child),
+.row.no-gutter [class*='col-']:not(:last-child) {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+
+div.f{
+  font-size: 150%;
+  background-color:FF5733
+  white-space: normal;
+}
+
